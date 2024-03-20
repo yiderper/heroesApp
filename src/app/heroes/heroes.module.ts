@@ -10,7 +10,6 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { MaterialModule } from '../material/material.module';
 
 
-
 @NgModule({
   declarations: [
     HeroPageComponent,
