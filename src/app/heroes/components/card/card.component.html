@@ -1,0 +1,20 @@
+<mat-card>
+  <mat-card-header> {{ hero.superhero }} </mat-card-header>
+  <mat-card-subtitle> {{ hero.alter_ego  }} </mat-card-subtitle>
+</mat-card>
+
+
+<mat-card-content class="mt-2">
+  <h4>{{ hero.publisher }}</h4>
+  <p>
+    <strong>Primera aparición</strong> {{ hero.first_appearance }}
+    <br>
+    <mat-chip-listbox>
+      <mat-chip>
+        {{hero.characters}}
+      </mat-chip>
+
+    </mat-chip-listbox>
+  </p>
+</mat-card-content>
+

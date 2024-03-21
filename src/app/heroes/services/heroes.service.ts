@@ -13,9 +13,7 @@ export class HeroesService {
   constructor( private http: HttpClient ) { }
 
     getHeroes():Observable<Hero[]> {
-
       return this.http.get<Hero[]>(`${ this.baseUrl }/heroes`);
-
     }
 
 
